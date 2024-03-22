@@ -1,0 +1,32 @@
+.grandpa {
+    background-color: black;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.grandpa .child {
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 2px solid red;
+}
+.grandpa .childDad {
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    gap: 10px;
+    border: 2px solid red;
+}
+.dad{
+    
+    display: flex;
+    flex-direction: row;
+}
